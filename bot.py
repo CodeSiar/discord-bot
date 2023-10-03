@@ -1,9 +1,9 @@
 from inspect import indentsize
+import random
 import discord
 from discord.ext import commands
 import youtube_dl
 import requests
-import random
 
 # Initialize bot with a command prefix
 bot = commands.Bot(command_prefix='!', intents=indentsize)
